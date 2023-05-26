@@ -7,6 +7,8 @@ import { CadastroBebeComponent } from './componets/cadastro-bebe/cadastro-bebe.c
 import { CadastroAlimentacaoComponent } from './componets/cadastro-alimentacao/cadastro-alimentacao.component';
 import { ListaBebesComponent } from './componets/lista-bebes/lista-bebes.component';
 import { ListaAlimentacaoComponent } from './componets/lista-alimentacao/lista-alimentacao.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ListaAlimentacaoComponent } from './componets/lista-alimentacao/lista-a
     CadastroBebeComponent,
     CadastroAlimentacaoComponent,
     ListaBebesComponent,
-    ListaAlimentacaoComponent
+    ListaAlimentacaoComponent,
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
